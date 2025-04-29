@@ -12,7 +12,7 @@ jobs:
           root_file: main.tex
         continue-on-error: true
       - name: Upload PDF file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@.1.2
         with:
           name: PDF
           path: main.pdf
