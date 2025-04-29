@@ -1,0 +1,198 @@
+TeX Live installer invocation: C:\tools\install-tl-29042515\install-tl -no-gui -profile C:/tools/texlive.profile 
+Automated TeX Live installation using profile: C:/tools/texlive.profile
+Trying to verify cryptographic signatures!
+Loading https://latex.us/systems/texlive/tlnet/tlpkg/texlive.tlpdb
+Installing TeX Live 2025 from: https://latex.us/systems/texlive/tlnet (verified)
+Platform: windows => 'Windows (64-bit)'
+Distribution: net  (downloading)
+Using URL: https://latex.us/systems/texlive/tlnet
+Directory for temporary files: C:\Users\voltron\AppData\Local\Temp\Wcun2jeO0d
+Installer revision: 74223
+Database revision: 75047
+Settings:
+  TEXDIR: "C:\texlive\2025"
+  TEXMFCONFIG: "~/.texlive2025/texmf-config"
+  TEXMFHOME: "~/texmf"
+  TEXMFLOCAL: "C:/texlive/texmf-local"
+  TEXMFSYSCONFIG: "C:/texlive/2025/texmf-config"
+  TEXMFSYSVAR: "C:/texlive/2025/texmf-var"
+  TEXMFVAR: "~/.texlive2025/texmf-var"
+  binary_aarch64-linux: ""
+  binary_amd64-freebsd: ""
+  binary_amd64-netbsd: ""
+  binary_armhf-linux: ""
+  binary_i386-freebsd: ""
+  binary_i386-linux: ""
+  binary_i386-netbsd: ""
+  binary_i386-solaris: ""
+  binary_universal-darwin: ""
+  binary_windows: "1"
+  binary_x86_64-cygwin: ""
+  binary_x86_64-darwinlegacy: ""
+  binary_x86_64-linux: ""
+  binary_x86_64-linuxmusl: ""
+  binary_x86_64-solaris: ""
+  collection-basic: "1"
+  collection-bibtexextra: ""
+  collection-binextra: ""
+  collection-context: ""
+  collection-fontsextra: ""
+  collection-fontsrecommended: ""
+  collection-fontutils: ""
+  collection-formatsextra: ""
+  collection-games: ""
+  collection-humanities: ""
+  collection-langarabic: ""
+  collection-langchinese: ""
+  collection-langcjk: ""
+  collection-langcyrillic: ""
+  collection-langczechslovak: ""
+  collection-langenglish: ""
+  collection-langeuropean: ""
+  collection-langfrench: ""
+  collection-langgerman: ""
+  collection-langgreek: ""
+  collection-langitalian: ""
+  collection-langjapanese: ""
+  collection-langkorean: ""
+  collection-langother: ""
+  collection-langpolish: ""
+  collection-langportuguese: ""
+  collection-langspanish: ""
+  collection-latex: "1"
+  collection-latexextra: ""
+  collection-latexrecommended: ""
+  collection-luatex: ""
+  collection-mathscience: ""
+  collection-metapost: ""
+  collection-music: ""
+  collection-pictures: ""
+  collection-plaingeneric: ""
+  collection-pstricks: ""
+  collection-publishers: ""
+  collection-texworks: ""
+  collection-wintools: ""
+  collection-xetex: ""
+  doc_splitting_supported: "1"
+  free_size: "-1"
+  inst_platform: "windows"
+  instopt_adjustpath: "1"
+  instopt_adjustrepo: "1"
+  instopt_letter: ""
+  instopt_portable: ""
+  instopt_write18_restricted: "1"
+  n_collections_available: "41"
+  n_collections_selected: "41"
+  n_systems_available: "15"
+  n_systems_selected: "1"
+  selected_scheme: "scheme-basic"
+  src_splitting_supported: "1"
+  this_platform: "windows"
+  tlpdbopt_autobackup: "1"
+  tlpdbopt_backupdir: "tlpkg/backups"
+  tlpdbopt_create_formats: "1"
+  tlpdbopt_desktop_integration: "1"
+  tlpdbopt_file_assocs: "1"
+  tlpdbopt_generate_updmap: ""
+  tlpdbopt_install_docfiles: "1"
+  tlpdbopt_install_srcfiles: "1"
+  tlpdbopt_location: "https://latex.us/systems/texlive/tlnet"
+  tlpdbopt_post_code: "1"
+  tlpdbopt_sys_bin: "/usr/local/bin"
+  tlpdbopt_sys_info: "/usr/local/share/info"
+  tlpdbopt_sys_man: "/usr/local/share/man"
+  tlpdbopt_w32_multi_user: "1"
+  total_size: ""
+Installing to: C:\texlive\2025
+Making read-only
+processed file: .
+Successfully processed 1 files; Failed processing 0 files
+processed file: .
+Successfully processed 1 files; Failed processing 0 files
+
+Making read-only
+processed file: .
+Successfully processed 1 files; Failed processing 0 files
+processed file: .
+Successfully processed 1 files; Failed processing 0 files
+
+Making read-only
+processed file: .
+Successfully processed 1 files; Failed processing 0 files
+processed file: .
+Successfully processed 1 files; Failed processing 0 files
+
+Installing [1/6, time/total: ??:??/??:??]: hyphen-base [23k]
+Installing [2/6, time/total: 00:00/00:00]: kpathsea [1042k]
+Installing [3/6, time/total: 00:01/00:15]: luatex [1961k]
+Installing [4/6, time/total: 00:02/00:10]: texlive-scripts [552k]
+Installing [5/6, time/total: 00:03/00:13]: texlive.infra [565k]
+Installing [6/6, time/total: 00:03/00:11]: tlperl.windows [11991k]
+Time used for installing the packages: 00:07
+Installing [001/131, time/total: ??:??/??:??]: ae [84k]
+Installing [002/131, time/total: 00:01/32:02]: amscls [1437k]
+Installing [003/131, time/total: 00:02/03:30]: amsfonts [4725k]
+Installing [004/131, time/total: 00:03/01:16]: amsmath [2460k]
+Installing [005/131, time/total: 00:05/01:31]: atbegshi [409k]
+Installing [006/131, time/total: 00:05/01:27]: atveryend [281k]
+Installing [007/131, time/total: 00:06/01:42]: auxhook [286k]
+Installing [008/131, time/total: 00:07/01:55]: babel [2260k]
+Installing [009/131, time/total: 00:08/01:47]: babel-english [137k]
+Installing [010/131, time/total: 00:09/01:59]: babelbib [1251k]
+Installing [011/131, time/total: 00:11/02:11]: bibtex [405k]
+Installing [012/131, time/total: 00:11/02:07]: bibtex.windows [49k]
+Installing [013/131, time/total: 00:11/02:07]: bigintcalc [467k]
+Installing [014/131, time/total: 00:12/02:14]: bitset [622k]
+Installing [015/131, time/total: 00:13/02:19]: bookmark [491k]
+Installing [016/131, time/total: 00:14/02:25]: carlisle [85k]
+Installing [017/131, time/total: 00:15/02:35]: cm [235k]
+Installing [018/131, time/total: 00:15/02:32]: collection-basic [1k]
+Installing [019/131, time/total: 00:15/02:32]: collection-latex [1k]
+Installing [020/131, time/total: 00:16/02:42]: colorprofiles [113k]
+Installing [021/131, time/total: 00:16/02:41]: colortbl [647k]
+Installing [022/131, time/total: 00:17/02:45]: dehyph [46k]
+Installing [023/131, time/total: 00:17/02:44]: dvipdfmx [3079k]
+Installing [024/131, time/total: 00:18/02:26]: dvipdfmx.windows [348k]
+Installing [025/131, time/total: 00:18/02:24]: dvips [576k]
+Installing [026/131, time/total: 00:19/02:28]: dvips.windows [108k]
+Installing [027/131, time/total: 00:19/02:27]: ec [280k]
+Installing [028/131, time/total: 00:20/02:33]: enctex [272k]
+Installing [029/131, time/total: 00:21/02:38]: epstopdf [44k]
+Installing [030/131, time/total: 00:21/02:38]: epstopdf-pkg [362k]
+Installing [031/131, time/total: 00:22/02:43]: epstopdf.windows [3k]
+Installing [032/131, time/total: 00:22/02:43]: etex [331k]
+Installing [033/131, time/total: 00:23/02:47]: etex-pkg [7k]
+Installing [034/131, time/total: 00:23/02:47]: etexcmds [302k]
+Installing [035/131, time/total: 00:24/02:52]: etoolbox [249k]
+Installing [036/131, time/total: 00:24/02:50]: extractbb [30k]
+Installing [037/131, time/total: 00:25/02:57]: extractbb.windows [3k]
+Installing [038/131, time/total: 00:25/02:57]: fancyhdr [1358k]
+Installing [039/131, time/total: 00:26/02:54]: firstaid [281k]
+Installing [040/131, time/total: 00:27/02:58]: fix2col [217k]
+Installing [041/131, time/total: 00:27/02:57]: geometry [900k]
+Installing [042/131, time/total: 00:28/02:57]: gettitlestring [320k]
+Installing [043/131, time/total: 00:29/03:01]: glyphlist [25k]
+Installing [044/131, time/total: 00:29/03:01]: graphics [2505k]
+Installing [045/131, time/total: 00:30/02:50]: graphics-cfg [2k]
+Installing [046/131, time/total: 00:31/02:56]: graphics-def [12k]
+Installing [047/131, time/total: 00:31/02:56]: grfext [310k]
+Installing [048/131, time/total: 00:32/02:59]: grffile [357k]
+Installing [049/131, time/total: 00:33/03:03]: hopatch [321k]
+Installing [050/131, time/total: 00:33/03:01]: hycolor [380k]
+Installing [051/131, time/total: 00:34/03:04]: hypcap [295k]
+Installing [052/131, time/total: 00:35/03:07]: hyperref [3923k]
+Installing [053/131, time/total: 00:37/02:55]: hyph-utf8 [314k]
+Installing [054/131, time/total: 00:37/02:53]: hyphen-english [41k]
+Installing [055/131, time/total: 00:38/02:58]: hyphenex [208k]
+Installing [056/131, time/total: 00:38/02:57]: ifplatform [156k]
+Installing [057/131, time/total: 00:39/03:01]: iftex [228k]
+Installing [058/131, time/total: 00:39/02:59]: infwarerr [287k]
+Installing [059/131, time/total: 00:40/03:03]: intcalc [431k]
+Installing [060/131, time/total: 00:41/03:05]: knuth-lib [30k]
+Installing [061/131, time/total: 00:41/03:05]: knuth-local [23k]
+Installing [062/131, time/total: 00:41/03:05]: kpathsea.windows [507k]
+Installing [063/131, time/total: 00:42/03:06]: kvdefinekeys [297k]
+Installing [064/131, time/total: 00:43/03:09]: kvoptions [502k]
+Installing [065/131, time/total: 00:43/03:07]: kvsetkeys [396k]
+Installing [066/131, time/total: 00:44/03:09]: l3backend [884k]
+Installing [067/131, time/total: 00:45/03:09]: l3kernel [12501k]

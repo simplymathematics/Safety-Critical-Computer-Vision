@@ -1,0 +1,54 @@
+stages:
+
+  pre-commmit:
+    cmd: pre-commit run --all-files  && chktex -q -V main.tex -n 24 -n 8 -n 1 # Suppresses warnings 8 (dash length), 24 (\labels inside floats), and 1 (trailing whitespace following and command)
+    deps:
+      - .pre-commit-config.yaml
+      - main.tex
+  install_texlive:
+    desc:
+      Install TeX Live on Linux, Mac, or Windows (respectively).
+      The linux command assumes apt is available (e.g. Ubuntu, Debian).
+      The mac command assumes brew is available..
+      The windows command assumes choco is available and that sudo is installed.
+    cmd: >-
+      (sudo apt update && sudo aptinstall -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-science texlive-bibtex-extra texlive-xetex) ||
+      (brew install mactex -y) ||
+      {sudo choco install texlive -y} 
+  first_run:
+    cmd: pdflatex  main.tex
+    deps:
+      - main.tex
+    outs:
+      - main.aux
+      - main-blx.bib
+      - main.log
+      - main.out
+      - main.run.xml
+  big_run:
+    cmd: pdflatex main.tex && bibtex main && pdflatex  main.tex && pdflatex  main.tex 
+    deps:
+      - main.tex
+      - bibliography.bib
+      - main-blx.bib
+      - main.aux
+      - main.log
+      - main.out
+      - main.run.xml
+    outs:
+      - main.bbl
+      - main.pdf
+  arxiv:
+    cmd: >-
+      python arxiv.py 
+      --title "A Training Rate and Survival Heuristic for Inference and Robustness Evaluation (TRASHFIRE)" 
+      --directories plots 
+      --delete_these_dirs generate_plots data tmp
+      --extensions py yaml lock log csv 
+      --delete_these_files ".dvcignore" "main.aux" "main.blg" "main.out" "main.run.xml" "main-blx.bib" "main.pdf"
+    deps:
+      - arxiv.py
+      - plots/
+      - main.pdf
+    outs:
+      - "A Training Rate and Survival Heuristic for Inference and Robustness Evaluation (TRASHFIRE).zip"
